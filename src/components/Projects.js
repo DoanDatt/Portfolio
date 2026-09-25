@@ -2,7 +2,6 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import shopee from "../assets/img/shopee.png"
-import portfolio from "../assets/img/portfolio.png"
 import orderfood from "../assets/img/order-food.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -111,7 +110,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="img"></img>
     </section>
   )
 }
